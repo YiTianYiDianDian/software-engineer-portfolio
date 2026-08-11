@@ -4,21 +4,30 @@ import { ArrowUpRight, ChevronRight, Mail, Menu, X } from "lucide-react";
 import "./styles.css";
 
 const projects = [
+	{
+		no: "01",
+		type: "API & PAYMENT INTEGRATION",
+		title: "Business & Payment Integrations",
+		text: "Designed and integrated secure payment and business APIs connecting enterprise applications with multiple payment gateways and external platforms.",
+		stack: ["C#", ".NET", "REST API", "JSON", "Webhooks"],
+		points: [
+		"Donation payment integration with ADAPTIS (formerly iPay88)",
+		"Dhiraagu Pay (Mobile Wallet) integration for online payments",
+		"Bank of Maldives (BML) payment gateway integration",
+		"Maldives Islamic Bank (MIB) GlobalPay online payment gateway integration",
+		"Stripe payment integration",
+		"Mastercard payment integration and transaction flows",
+		"Payment status, callback and response handling",
+		"Validation, error handling and troubleshooting"
+		]
+		},
   {
-    no: "01",
+    no: "02",
     type: "ENTERPRISE SOFTWARE",
     title: "Enterprise .NET + React Systems",
     text: "Full-stack business applications built around ASP.NET Core APIs, React interfaces, relational databases and cloud services.",
     stack: [".NET", "C#", "ASP.NET Core", "React", "SQL Server", "Azure"],
     points: ["REST API and service-layer development", "React interfaces, forms and data workflows", "Database design and EF Core integration", "Production troubleshooting and system improvement"]
-  },
-  {
-    no: "02",
-    type: "API & PAYMENT INTEGRATION",
-    title: "Business & Payment Integrations",
-    text: "Reliable integrations connecting enterprise applications with payment providers and external business platforms.",
-    stack: ["C#", ".NET", "REST API", "JSON", "Webhooks"],
-    points: ["Transaction request and response flows", "Payment status and callback handling", "Validation, error handling and retries", "Third-party API troubleshooting"]
   },
   {
     no: "03",
