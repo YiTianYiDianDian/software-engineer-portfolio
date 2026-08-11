@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { createRoot } from "react-dom/client";
-import { ArrowUpRight, ChevronRight, Github, Linkedin, Mail, Menu, X } from "lucide-react";
+import { ArrowUpRight, ChevronRight, Mail, Menu, X } from "lucide-react";
 import "./styles.css";
 
 const projects = [
@@ -127,10 +127,7 @@ function App() {
           <h2>Have a software problem worth solving?</h2>
           <p>Tell me what you are building, integrating or improving.</p>
           <a className="btn primary" href="mailto:yitianyidiandian@gmail.com">Get in touch <Mail size={17}/></a>
-          <div className="socials">
-            <a href="https://github.com/yitianyidiandian" target="_blank" rel="noreferrer"><Github size={18}/> GitHub</a>
-            <a href="https://www.linkedin.com/in/yitianyidiandian/" target="_blank" rel="noreferrer"><Linkedin size={18}/> LinkedIn</a>
-          </div>
+         
         </section>
       </main>
 
